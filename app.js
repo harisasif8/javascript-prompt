@@ -30,7 +30,7 @@ for (let i = 0; i<arr.length; i++ ){
 
 let d = document.getElementById('name')
     d.innerHTML= arr2[0]
-    
+    asd
     let e = document.getElementById('company')
     e.innerHTML= arr2[1]
     
