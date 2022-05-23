@@ -3,7 +3,7 @@ const USERS = 'user';
 
 
 
-
+console.log(USERS)
 
 const checkAuth = () => {
     const loggedInUser = localStorage.getItem(LoggedInUser);
@@ -19,13 +19,13 @@ const checkAuth = () => {
         location.replace("/Users/hasif/Desktop/Haris Intern task/Authentication/pages/login/login.html")
     }
 
-    
+
 };
 checkAuth();
 
 
 
-const logout =  () => {
+const logout = () => {
     localStorage.removeItem(LoggedInUser);
     window.location.href = "/Users/hasif/Desktop/Haris Intern task/Authentication/pages/login/login.html"
 

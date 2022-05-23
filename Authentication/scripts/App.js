@@ -1,5 +1,6 @@
 const USERS = 'user';
 const LoggedInUser = 'loggedInUser'
+
 const getUsersFromLocalStorage = () => {
     const usersFromLS = localStorage.getItem(USERS);
     return JSON.parse(usersFromLS);
